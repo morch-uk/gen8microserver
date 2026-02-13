@@ -1,6 +1,7 @@
 # gen8microserver
 
 helpful site: https://github.com/laris/HPE_Microserver_Gen8
+https://pingtool.org/latest-hp-ilo-firmwares/
 
 ## Drives
 
