@@ -1,5 +1,7 @@
 # gen8microserver
 
+helpful site: https://github.com/laris/HPE_Microserver_Gen8
+
 ## Drives
 
 front bay drives filled with 4x SATA
