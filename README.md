@@ -29,5 +29,7 @@ so disabled vt-t "Boot > F9 Bios > System > Processor Options > VT-d = disabled"
 src: https://forum.proxmox.com/threads/updated-to-8-2-dma-error.145907/
 
 
+After reattaching the front panel drives - no longer boots
 
+swapped back to software raid, but made each drive a single drive raid0 including the optical bay ssd with proxmox installed - it boots to proxmox
 
