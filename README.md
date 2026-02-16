@@ -29,7 +29,15 @@ so disabled vt-t "Boot > F9 Bios > System > Processor Options > VT-d = disabled"
 src: https://forum.proxmox.com/threads/updated-to-8-2-dma-error.145907/
 
 
-After reattaching the front panel drives - no longer boots
+After reattaching the front panel drives - no longer boots - cannot boot from SAT controller 2
 
-swapped back to software raid, but made each drive a single drive raid0 including the optical bay ssd with proxmox installed - it boots to proxmox
+Enter bios by pressing F9
+
+Set the Sata device to Legacy under the System options and reboot and head back into bios.
+
+Below the option "Standard Boot Order (IPL) there is an option "Boot Controller order"
+
+- Select : "PCI Embedded Intel(R) Sata controller #2
+
+Now boots and can make a zfs after wiping the sd(ABCD) from node -> disk
 
